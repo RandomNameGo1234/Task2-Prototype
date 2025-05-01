@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking_Forms</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <nav>
+                <!--Navigation bar div button establishments for CSS-->
+                <div class="HomeNavButton">
+                    <a href="/index">
+                        <img class="HomeButton" src="/static/Images/Untitled30_20250327010408.png" alt="Home Icon Button"></a></div>
+
+                <div class="BookingsNavButton">
+                    <a class="BookingsNavLinkText" href="/Bookings_ProductSelection">Bookings</a></div>
+
+                <div class="EducationResourcesNavButton">
+                    <a class="ERNavLinkText" href="/EducationalResourcesP1">Educational Resources</a></div>
+
+                <div class="CarbFootprintNavButton">
+                    <a class="CarbFootprintNavLinkText" href="/CarbFootprint">Carbon Footprint calculator</a></div>
+
+                <div class="EnergyTrackerNavButton">
+                    <a class="EnergyTrackerNavLinkText" href="/EnergyTracker">Energy usage tracker</a></div>
+                                
+
+                <!--Sign-up/Log-in & User profile navigation bar buttons for CSS-->
+                <div class="Log-in-Sign-upNavButton">
+                        <a class="Log_InNavLinkText" href="/Log_in">Log-In</a></div>
+                <div class="UserProfileNavButton">
+                        <a href="/User_profile">
+                            <img class="ProfileIcon" src="/static/Images/Person_Icon.png" alt="User Profile Button">
+                        </a></div>
+                                    
+            </nav>
+
+            <div class="accent1"></div>
+            <div class="accent2"></div>
+        </header>
+
+        <main>
+            <div class="BookingsFormMainDiv">
+                <div class="BookingsWhiteBoxBG">
+                    <div class="BookingsGreyBoxBG">
+                        <form class="Booking_Forms", methods='POST'>
+                            <input class="BookingFirstNameInput" 
+                            type="text", 
+                            id="FirstName"
+                            name="FirstName"
+                            placeholder="First name">
+                            <br> 
+
+                            <input class="BookingLastNameInput" 
+                            type="text", 
+                            id="LastName"
+                            name="LastName"
+                            placeholder="Last name"> 
+                            <br> 
+
+                            <input class="BookingDOBInput" 
+                            type="text", 
+                            id="DOB"
+                            name="DOB"
+                            placeholder="D.O.B - dd/mm/year"> 
+                            <br> 
+
+                            <input class="BookingEmailInput" 
+                            type="email", 
+                            id="Email"
+                            name="Email"
+                            placeholder="Email"> 
+                            <br> 
+
+                            <input class="BookingPhoneNumberInput" 
+                            type="tel", 
+                            id="PhoneNumber"
+                            name="PhoneNumber"
+                            placeholder="Phone number"> 
+                            <br> 
+
+                            <input class="BookingAddressInput" 
+                            type="text", 
+                            id="Address"
+                            name="Address"
+                            placeholder="Address"> 
+                            <br> 
+
+                            <input class="BookingDateInput" 
+                            type="date", 
+                            id="BookingDate"
+                            name="BookingDate"
+                            placeholder=""> 
+                            <br> 
+
+                            <button class="BookingConfirmationButton" type="submit" value="submit booking">
+                                <p class="BookingConfirmButtonText">Submit</p>
+                            </button>
+                        </form>
+                        <script src="/scripts"></script>
+                    </div>
+                </div>
+                <!--img src="/static/Images/BookingsFormBG1.jpg" alt="Forest rain background image"-->
+            </div>
+        </main>
+    
+    </div>
+</body>
+</html>

@@ -1,0 +1,1724 @@
+body {
+    background-color: #DBDBDB;
+}
+
+
+.container {
+    width: 2538px;
+    text-align: center;
+    border-style:groove;
+    border-color: black;
+    border-width: 3px;
+
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*Header + Nav bar*/
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+header {
+    background-color: #F2F2F2;
+    height: 150px;
+    text-align: center;
+    text-anchor: middle;
+
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.671);
+
+    z-index: 10;
+}
+
+nav {
+    background-color: #F2F2F2;
+    height: 130px;
+    text-align: center;
+    text-anchor: middle;
+    border-style:groove;
+    border-color: black;
+    border-width: 3px;
+
+    position: relative;
+    overflow: hidden;
+
+    z-index: 6;
+    
+}
+main {
+    z-index: 2;
+}
+.accent1 {
+    background-color:#79EDA0;
+    height: 5px;
+    border-style:groove;
+    border-color: black;
+    border-width: 3px;
+    
+}
+.accent2 {
+    background-color:#FFFFFF;
+    height: 3px;
+    border-style:groove;
+    border-color: black;
+    border-width: 3px;
+    
+}
+
+/*Href buttons*/
+
+a {
+    color: black;
+    font-size: 30px;
+    padding-top:15px;
+}
+
+.HomeNavButton {
+    border: black;
+    border-style: groove;
+    border-width: 4px;
+
+    background-color: #79EDA0;
+
+    height: 100px;
+    width: 115px;
+
+    margin: 15px 45px;
+
+    transition: all 0.2s ease-in-out;
+    
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.349);
+
+}
+.HomeNavButton:hover {
+    scale: 1.2;
+    background-color: #a8fcc4;
+}
+.HomeButton {
+    position: absolute;
+
+    width: 110px;
+    height: 110px;
+
+    margin: -5px -55px;
+}
+
+.BookingsNavButton {
+    border: black;
+    border-style: groove;
+    border-width: 4px;
+
+    background-color: #79EDA0;
+
+    border-radius: 10%/20%;
+
+    height: 85px;
+    width: 220px;
+
+    margin: 22px 220px;
+
+    text-align: center;
+
+    transition: all 0.2s ease-in-out;
+    
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.349);
+}
+.BookingsNavButton:hover {
+    scale: 1.2;
+    background-color: #a8fcc4;
+}
+.BookingsNavLinkText {
+    font-size: 40px;
+    font-style:oblique;
+    color: black;
+   
+    
+    position:absolute;
+    margin: 5px -75px;
+}
+
+.EducationResourcesNavButton {
+    border: black;
+    border-style: groove;
+    border-width: 4px;
+    
+    background-color: #79EDA0;
+
+    border-radius: 10%/20%;
+
+    height: 85px;
+    width: 220px;
+
+    margin: 22px 480px;
+
+    transition: all 0.2s ease-in-out;
+    
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.349);
+}
+.EducationResourcesNavButton:hover {
+    scale: 1.2;
+    background-color: #a8fcc4;
+}
+.ERNavLinkText {
+    font-size: 30px;
+    font-style:oblique;
+    color: black;
+   
+    
+    
+}
+
+.CarbFootprintNavButton {
+    border: black;
+    border-style: groove;
+    border-width: 4px;
+
+    background-color: #79EDA0;
+
+    border-radius: 10%/20%;
+
+    height: 85px;
+    width: 220px;
+
+    margin: 22px 740px;
+
+    transition: all 0.2s ease-in-out;
+    
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.349);
+}
+.CarbFootprintNavButton:hover {
+    scale: 1.2;
+    background-color: #a8fcc4;
+}
+.CarbFootprintNavLinkText {
+    font-size: 30px;
+    font-style:oblique;
+    color: black;
+    
+}
+
+.EnergyTrackerNavButton {
+    border: black;
+    border-style: groove;
+    border-width: 4px;
+
+    background-color: #79EDA0;
+
+    border-radius: 10%/20%;
+
+    height: 85px;
+    width: 220px;
+
+    margin: 22px 1000px;
+
+    transition: all 0.2s ease-in-out;
+    
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.349);
+}
+.EnergyTrackerNavButton:hover {
+    scale: 1.2;
+    background-color: #a8fcc4;
+}
+.EnergyTrackerNavLinkText {
+    font-size: 30px;
+    font-style:oblique;
+    color: black;
+    
+}
+
+.Log-in-Sign-upNavButton {
+    border: black;
+    border-style: groove;
+    background-color: #6ba3ca;
+
+    border-radius: 10%/20%;
+
+    height: 55px;
+    width: 160px;
+
+    margin: 35px 2130px;
+
+    transition: all 0.2s ease-in-out;
+    
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.349);
+}
+.Log-in-Sign-upNavButton:hover {
+    scale: 1.2;
+    background-color: #89c4ee;
+}
+
+.UserProfileNavButton {
+    border: black;
+    border-style: groove;
+    background-color: #6ba3ca;
+
+    border-radius: 100%;
+
+    height: 115px;
+    width: 115px;
+
+    margin: 5px 2370px;
+
+    transition: all 0.2s ease-in-out;
+    
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.349);
+}
+.UserProfileNavButton:hover {
+    scale: 1.2;
+    background-color: #89c4ee;
+}
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*Home Page UI*/
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+.HomeMainDiv {
+    height: 829px;
+    margin: auto;
+    position: relative;
+}
+
+.RolsaTechTitle {
+    background-color: rgba(0, 0, 0, 0.562);
+
+    border-style:groove;
+    border-color: black;
+    border-width: 5px;
+
+    width: 750px;
+    height: 100px;
+
+    margin: 30px 35px;
+    border-radius: 5%/25%;
+
+    position:relative;
+
+    animation: HomeTitleTextBox 1.3s ease-out;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.349);
+}
+@keyframes HomeTitleTextBox {
+    from {
+        opacity: 0;
+        right: 20px;}
+    to {
+        opacity: 1;
+        right: 0px;}
+}
+
+.RolsaP1 {
+    color: white;
+    font-size: 50px;
+    font-style:italic;
+    padding-top: 0px;
+    text-decoration-line: underline;
+
+    margin: 20.0px 20.0px;
+    text-align: left;
+
+    position:relative;
+}
+
+.MainTextBox {
+    background-color: #A6A6A6;
+
+    border-style:groove;
+    border-color: black;
+    border-width: 5px;
+
+    width: 1150px;
+    height: 400px;
+
+    margin: 90px 40px;
+    border-radius: 3%/10%;
+
+    position:relative;
+
+    animation: HomeTextBox 1.2s ease-out;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.349);
+}
+@keyframes HomeTextBox {
+    from {
+        opacity: 0;
+        top: 50px;}
+    to {
+        opacity: 1;
+        top: 0px;}
+}
+
+.TextBoxP1 {
+    font-size: 30px;
+    font-style: normal;
+    color: black;
+
+    text-align:left;
+
+    position:relative;
+}
+
+
+/*Image Carousel*/
+
+.CarouselBox {
+    width: 980px;
+    height: 850px;
+
+    border-style:groove;
+    border-color: black;
+    border-width: 5px;
+
+    background-color: #747474;
+
+    margin: -725px 1550px;
+    position:relative;
+
+    overflow: hidden;
+}
+/*Images hidden by default*/
+.SlideshowIndex {
+    display:none;
+}
+.text {
+    color: #D9D9D9;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.numbertext {
+    color: white;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0px;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 800px 15px;
+    background-color: rgb(83, 76, 76);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+
+    text-align: right;
+}
+.active, .dot:hover {
+    background-color: rgb(255, 255, 255);
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+/*Footer*/
+.HomeFooter {
+    background-color: #79EDA0;
+    height: 262px;
+    border-style:groove;
+    border-color: black;
+    border-width: 5px;
+}
+.accent3 {
+    height: 5px;
+    background-color: #FFFFFF;
+    border-style:groove;
+    border-color: black;
+}
+.accent4 {
+    height: 10px;
+    background-color: #AEAEAE;
+    border-style:groove;
+    border-color: black;
+    box-shadow: 0px 10px 50px rgba(6, 73, 40, 0.699);
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*Educational Resources UI & Pages*/
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+.EducationalResourcesMainDiv {
+    height: 926px;
+}
+
+.ERNavBar {
+    height: 130px;
+
+    border-style:groove;
+    border-color: black;
+    border-width: 2px;
+
+    background-color: #D9D9D9;
+
+    position: relative;
+    z-index: 1;
+
+    overflow: hidden;
+
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.671);
+
+}
+
+
+.ER1 {
+
+    height: 80px;
+    width: 325px;
+
+    background-color: #85a878;
+
+    border-style:groove;
+    border-color: black;
+    border-width: 4px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+
+    position: absolute;
+
+    margin: 40px 40px;
+
+    transition: all 0.5s ease-in-out;
+
+}
+.ER1:hover {
+    height: 100px;
+    transform: translateY(-30px);
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+
+    background-color: #a6d396;
+}
+.Er1_Link {
+    font-size: 30px;
+    color: white;
+    font-style: oblique;
+
+    text-align: center;
+    text-decoration: none;
+
+    position: absolute;
+    margin: 10px -130px;
+}
+
+.ER2 {
+
+    height: 80px;
+    width: 325px;
+
+    background-color: #85a878;
+
+    border-style:groove;
+    border-color: black;
+    border-width: 4px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+
+    position: absolute;
+
+    margin: 40px 465px;
+
+    transition: all 0.5s ease-in-out;
+
+}
+.ER2:hover {
+    height: 100px;
+    transform: translateY(-30px);
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+
+    background-color: #a6d396;
+}
+.Er2_Link {
+    font-size: 30px;
+    color: white;
+    font-style: oblique;
+
+    text-align: center;
+    text-decoration: none;
+
+    position: absolute;
+    margin: 10px -140px;
+}
+
+.ER3 {
+
+    height:80px;
+    width:325px;
+
+    background-color: #85a878;
+
+    border-style:groove;
+    border-color: black;
+    border-width: 4px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+
+    position: absolute;
+
+    margin: 40px 890px;
+
+    transition: all 0.5s ease-in-out;
+
+}
+.ER3:hover {
+    height: 100px;
+    transform: translateY(-30px);
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+
+    background-color: #a6d396;
+}
+.Er3_Link {
+    font-size: 30px;
+    color: white;
+    font-style: oblique;
+
+    text-align: center;
+    text-decoration: none;
+
+    position: absolute;
+    margin: 10px -110px;
+}
+
+.ER4 {
+
+    height:80px;
+    width:325px;
+
+    background-color: #85a878;
+
+    border-style:groove;
+    border-color: black;
+    border-width: 4px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+
+    position: absolute;
+
+    margin: 40px 1310px;
+
+    transition: all 0.5s ease-in-out;
+
+}
+.ER4:hover {
+    height: 100px;
+    transform: translateY(-30px);
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+
+    background-color: #a6d396;
+}
+.Er4_Link {
+    font-size: 20px;
+    color: white;
+    font-style: oblique;
+
+    text-align: center;
+    text-decoration: none;
+
+    position: absolute;
+    margin: 15px -155px;
+}
+
+.ER5 {
+
+    height:80px;
+    width:325px;
+
+    background-color: #85a878;
+
+    border-style:groove;
+    border-color: black;
+    border-width: 4px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+
+    position: absolute;
+
+    margin: 40px 1735px;
+
+    transition: all 0.5s ease-in-out;
+
+}
+.ER5:hover {
+    height: 100px;
+    transform: translateY(-30px);
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+
+    background-color: #a6d396;
+}
+.Er5_Link {
+    font-size: 17px;
+    color: white;
+    font-style: oblique;
+
+    text-align: center;
+    text-decoration: none;
+
+    position: absolute;
+    margin: 15px -150px;
+}
+
+.ER6 {
+
+    height:80px;
+    width:325px;
+
+    background-color: #85a878;
+
+    border-style:groove;
+    border-color: black;
+    border-width: 4px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+
+    position: absolute;
+
+    margin: 40px 2160px;
+
+    transition: all 0.5s ease-in-out;
+
+}
+.ER6:hover {
+    height: 100px;
+    transform: translateY(-30px);
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+
+    background-color: #a6d396;
+}
+.Er6_Link {
+    font-size: 30px;
+    color: white;
+    font-style: oblique;
+
+    text-align: center;
+    text-decoration: none;
+
+    position: absolute;
+    margin: 10px -120px;
+}
+
+.Accent5 {
+    height: 10px;
+
+    border-style:groove;
+    border-color: black;
+    border-width: 3px;
+
+    background-color: #747474;
+
+    position: relative;
+    z-index: 3;
+
+    margin: 115px 0px;
+
+    
+}
+
+
+
+.InfoBox1 {
+    height: 180px;
+    width: 1400px;
+
+    border-style:groove;
+    border-color: black;
+    border-width: 3px;
+
+    position: absolute;
+    margin: 180px 50px;
+
+    background-color: #A6A6A6;
+
+    animation: ERTopInfoBox 0.7s ease-in-out;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.671);
+}
+@keyframes ERTopInfoBox {
+    from {
+        opacity: 0;
+        top: 145px;}
+    to {
+        opacity: 1;
+        top: 160px;}
+}
+.InfoBoxText1 {
+    font-size: 20px;
+    color: white;
+}
+
+.InfoBox2 {
+    height: 450px;
+    width: 1400px;
+
+    border-style:groove;
+    border-color: black;
+    border-width: 3px;
+
+    position: absolute;
+    margin: 440px 50px;
+
+    background-color: #A6A6A6;
+
+    animation: ERBottomInfoBox 0.7s ease-in-out;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.671);
+}
+@keyframes ERBottomInfoBox {
+    from {
+        opacity: 0;
+        bottom: -215px;}
+    to {
+        opacity: 1;
+        bottom: -190px;}
+}
+.InfoBoxText2 {
+    font-size: 20px;
+    color: white;
+}
+
+.ERImageBox {
+    height: 400px;
+    width: 650px;
+
+    border-style:double;
+    border-color: black;
+    border-width: 5px;
+
+    position: absolute;
+    margin: 180px 1700px;
+    overflow: hidden;
+
+    background-color: #A6A6A6;
+
+    animation: ERImageBox 1s ease-in-out;
+    animation-fill-mode: both;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.671);
+
+}
+@keyframes ERImageBox {
+    0% {
+        right: -1555px;
+        opacity: 0;}
+    100% {
+        right: -1510px;
+        opacity: 1;}
+}
+
+
+/*Educational Resources Pages Images*/
+.ERImageBox-P1 img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    scale: 1.1;
+
+    position:absolute;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*1st Bookings Page UI*/
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+
+
+.Bookings1MainDiv {
+    height: 890px;
+}
+
+.BookingTitle {
+    height: 90px;
+    width: 700px;
+
+    border-color: black;
+    border-style: groove;
+    border-width: 4px;
+    border-radius: 7%;
+
+    background-color: rgba(0, 0, 0, 0.534);
+
+    margin: 35.0px 900.0px;
+}
+.BookingTitleText {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-style: italic;
+    text-decoration: underline;
+    margin: 22.0px 0.0px;
+}
+
+/*BookingPage product display icons*/
+.BoxIcon1 {
+    height: 600px;
+    width: 650px;
+
+    border-style: double;
+    border-color: black;
+    border-width:10px;
+    border-radius: 15%;
+
+    margin: 90px 125px;
+    position:absolute;
+    overflow: hidden;
+
+    transition: all 0.5s ease-in-out;
+    animation: SolarPanelIconBox 1.2s ease-in-out;
+}
+.BoxIcon1 img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0px -400px;
+
+    position:absolute;
+}
+.BoxIcon1:hover {
+    scale: 1.1;
+    background-color: lightgrey;
+}
+@keyframes SolarPanelIconBox {
+    0% {
+        opacity: 0;
+        top: 430px}
+    50% {opacity: 1;
+        top: 300px}
+    100% {opacity: 1;
+        top: 330px}
+}
+
+.BoxIcon2 {
+    height: 600px;
+    width: 650px;
+
+    border-style: double;
+    border-color: black;
+    border-width:10px;
+    border-radius: 15%;
+
+    margin: 90px 925.0px;
+    position:absolute;
+    overflow: hidden;
+
+    transition: all 0.5s ease-in-out;
+    animation: EVIconBox 1.2s ease-in-out;
+    animation-delay: 0.1s;
+    animation-fill-mode: both;
+}
+.BoxIcon2 img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0px -400px;
+
+    position:absolute;
+}
+.BoxIcon2:hover {
+    scale: 1.1;
+    background-color: lightgrey;
+}
+@keyframes EVIconBox {
+    0% {
+        opacity: 0;
+        top: 430px}
+    50% {opacity: 1;
+        top: 300px}
+    100% {opacity: 1;
+        top: 330px}
+}
+
+.BoxIcon3 {
+    height: 600px;
+    width: 650px;
+
+    border-style: double;
+    border-color: black;
+    border-width:10px;
+    border-radius: 15%;
+
+    margin: 90.0px 1725.0px;
+    position:absolute;
+    overflow: hidden;
+
+    transition: all 0.5s ease-in-out;
+    animation: SmartHomeIconBox 1.2s ease-in-out;
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
+}
+.BoxIcon3 img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0px -325px;
+
+    position:absolute;
+}
+.BoxIcon3:hover {
+    scale: 1.1;
+    background-color: lightgrey;
+}
+@keyframes SmartHomeIconBox {
+    0% {
+        opacity: 0;
+        top: 430px}
+    50% {opacity: 1;
+        top: 300px}
+    100% {opacity: 1;
+        top: 330px}
+}
+
+.BoxIconTags {
+
+    height:50px;
+    width:644px;
+
+    margin: 450.0px 0.0px;
+    margin: center;
+    text-align: center;
+
+    border-style: groove;
+    border-color: black;
+    border-width:4px;
+    position: relative;
+
+    background-color: #79eda0d3;
+}
+.BookingIconLinks {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+
+.BookingsFooter {
+    background-color: #79EDA0;
+    height: 195px;
+    border-style:groove;
+    border-color: black;
+    border-width: 5px;
+}
+.BookingsFooterBox {
+    height: 120px;
+    width: 700px;
+
+    background-color: #F2F2F2;
+
+    border-style:groove;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10%;
+
+    margin: 22.0px 890.0px;
+}
+.FooterConsultationLink {
+    font-size: 30px;
+    color: black;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*BookingPage Forms*/
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+.BookingsFormMainDiv {
+    height: 1130px;
+    position: relative;
+
+    overflow: hidden;
+}
+
+.BookingsWhiteBoxBG {
+    width: 35%;
+    Height: 95%;
+
+    border-color: black;
+    border-style: groove;
+
+    background-color: #FFFFFF;
+
+    margin: auto;
+    transform: translate(0%,2%);
+
+    z-index: 5;
+
+    animation: BookingFormsAnim 0.8s ease-in-out;
+    animation-fill-mode: both;
+}
+@keyframes BookingFormsAnim {
+    0% {
+        bottom: 0px;
+        opacity: 0;
+    }
+    100% {
+        bottom: 50px;
+        opacity: 1;
+    }
+}
+.BookingsGreyBoxBG {
+    width: 90%;
+    Height: 80%;
+
+    border-color: black;
+    border-style: groove;
+
+    background-color: #D9D9D9;
+
+    margin: auto;
+    transform: translate(0%, 3%);
+    z-index: 6;
+
+    align-items: center; 
+}
+
+
+
+
+.BookingFirstNameInput {
+    height: 50px;
+    width: 45%;
+
+    background-color: #F2F2F2;
+
+    border-color: black;
+    border-width: 4px;
+    border-radius: 3%/25%;
+
+    font-size: 25px;
+
+    margin: auto;
+    transform: translate(-3%, 50%);
+}
+.BookingLastNameInput {
+    height: 50px;
+    width: 45%;
+
+    background-color: #F2F2F2;
+
+    border-color: black;
+    border-width: 4px;
+    border-radius: 3%/25%;
+
+    font-size: 25px;
+
+    margin: auto;
+    transform: translate(3%, 50%);
+}
+.BookingDOBInput {
+    height: 50px;
+    width: 95%;
+
+    background-color: #F2F2F2;
+
+    border-color: black;
+    border-width: 4px;
+    border-radius: 3%/25%;
+
+    font-size: 25px;
+
+    margin: auto;
+    transform: translate(0%, 100%);
+}
+.BookingEmailInput {
+    height: 50px;
+    width: 95%;
+
+    background-color: #F2F2F2;
+
+    border-color: black;
+    border-width: 4px;
+    border-radius: 3%/25%;
+
+    font-size: 25px;
+
+    margin: auto;
+    transform: translate(0%, 140%);
+}
+.BookingPhoneNumberInput {
+    height: 50px;
+    width: 95%;
+
+    background-color: #F2F2F2;
+
+    border-color: black;
+    border-width: 4px;
+    border-radius: 3%/25%;
+
+    font-size: 25px;
+
+    margin: auto;
+    transform: translate(0%, 170%);
+}
+.BookingAddressInput {
+    height: 50px;
+    width: 95%;
+
+    background-color: #F2F2F2;
+
+    border-color: black;
+    border-width: 4px;
+    border-radius: 3%/25%;
+
+    font-size: 25px;
+
+    margin: auto;
+    transform: translate(0%, 200%);
+}
+
+.BookingDateInput {
+    height: 50px;
+    width: 95%;
+
+    background-color: #F2F2F2;
+
+    border-color: black;
+    border-width: 4px;
+    border-radius: 3%/25%;
+
+    font-size: 25px;
+
+    margin: auto;
+    transform: translate(0%, 230%);
+}
+
+.BookingConfirmationButton {
+    width: 50%;
+    Height: 100px;
+
+    border-color: #000000;
+    border-style: groove;
+    border-radius: 5%/20%;
+
+    background-color: #79EDA0;
+
+    margin: auto;
+    transform: translate(0%, 530%);
+    
+    transition: all 0.5s ease-in-out;
+}
+.BookingConfirmationButton:hover {
+    background-color: #a8fcc4;
+    scale: 1.01;
+}
+.BookingConfirmButtonText {
+    font-size: 40px;
+    font-style: italic;
+    color: #000000;
+
+    margin: auto;
+
+}
+
+
+
+.BookingsFormMainDiv img {
+    width: 110%;
+    height: 110%;
+
+    margin: auto;
+    transform: translate(-50%, -90%);
+    z-index: 1;
+    position:absolute;
+
+    animation: BookingFormsImageDiv 1s ease-out;
+    animation-fill-mode: both;
+    opacity: 0.8;
+}
+@keyframes BookingFormsImageDiv {
+    0% {
+        opacity: 0;}
+    100% {
+        opacity: 0.8;}
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*Booking Confirmation Page*/
+
+.BookingConfMainDiv {
+    height: 1130px;
+    position: relative;
+}
+
+.ConfirmationBox {
+    width: 800px;
+    height: 300px;
+
+    margin: auto;
+    transform: translate(0%, 90%);
+
+    background-color: #ffffff;
+
+    border: #000000;
+    border-width: 3px;
+    border-style:groove;
+    border-radius: 5%/15%;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*Carbon Footprint calc Pages*/
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*Energy Usage Tracker Pages*/
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*Log-In Page*/
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+.Log-InMainDivBox {
+    height: 1125px;
+    position: relative;
+
+    overflow: hidden;
+}
+
+.LogInWhiteBoxBG {
+    width: 800px;
+    Height: 950px;
+
+    border-color: black;
+    border-style: groove;
+
+    background-color: #eeeeee;
+
+    margin: auto;
+    transform: translate(0%, 5%);
+    position: relative;
+
+    overflow: hidden;
+
+    animation: Log-InBoxAnim 0.7s ease-in-out;
+    animation-fill-mode: both;
+
+    z-index: 5;
+    
+}
+@keyframes Log-InBoxAnim {
+    0% {
+        opacity: 0.5;
+        bottom: 30px;
+    }
+    100% {
+        opacity: 1;
+        bottom: 0px;
+    }
+}
+
+.Log-inTitleBox {
+    width: 450px;
+    Height: 65px;
+
+    border-color: black;
+    border-style: groove;
+    border-radius: 5%/25%;
+
+    background-color: rgba(0, 0, 0, 0.507);
+    margin: auto;
+    transform: translate(0%, 30%);
+
+}
+.Log-inTitleBoxText {
+    font-size: 40px;
+    color: white;
+    font-style: Agency FB;
+    text-decoration: underline;
+
+    margin: 7px 0px;
+}
+.Log-In_Username_OverheadText {
+    color: black;
+    text-decoration: underline;
+    text-align: left;
+    font-size: 35px;
+
+    margin: 80px 95px;
+    position: absolute;
+}
+.Log-In_UserFormInput {
+    height: 60px;
+    width: 600px;
+
+    background-color: #F2F2F2;
+
+    border-color: black;
+    border-width: 4px;
+    border-radius: 3%/25%;
+
+    font-size: 25px;
+
+    margin: auto;
+    transform: translate(0%, 200%);
+}
+.Log-In_Password_OverheadText {
+    color: black;
+    text-decoration: underline;
+    text-align: left;
+    font-size: 35px;
+
+    margin: 250px 95px;
+    position: absolute;
+}
+.Log-In_PassFormInput {
+    height: 60px;
+    width: 600px;
+
+    background-color: #F2F2F2;
+
+    border-color: black;
+    border-width: 4px;
+    border-radius: 3%/25%;
+
+    font-size: 25px;
+
+    margin: auto;
+    transform: translate(0%, 340%);
+}
+.Log-in_Button {
+    border: black;
+    border-style: groove;
+    border-width: 3px;
+    background-color: #79EDA0;
+
+    border-radius: 5%/25%;
+
+    height: 85px;
+    width: 380px;
+
+    margin: auto;
+    transform: translate(0%, 380%);
+    transition: all 0.3s ease-in-out;
+}
+.Log-InButtonText {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin: 10px 0px;
+}
+.Log-in_Button:hover {
+    background-color: #8efdb3;
+    scale: 1.01;
+}
+
+.Sign-Up_option {
+    margin: auto;
+    transform: translate(-45%, 680%);
+    position: absolute;
+
+    font-size: 30px;
+    color: #000000;
+}
+
+.Log-InMainDivBox img {
+    width: 110%;
+    height: 110%;
+
+    margin: auto;
+    transform: translate(0%, -80%);
+    z-index: 1;
+
+    animation: LogInImageDiv 1s ease-out;
+    animation-fill-mode: both;
+    opacity: 0.8;
+}
+@keyframes LogInImageDiv {
+    0% {
+        opacity: 0;}
+    100% {
+        opacity: 0.8;}
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*Sign-Up Page UI*/
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+.Sign-UpMainDivBox {
+    height: 1125px;
+    position: relative;
+    overflow: hidden;
+}
+.Sign-UpWhiteBoxBG {
+    height: 950px;
+    width: 800px;
+
+    border: black;
+    border-style: groove;
+    border-width: 3px;
+
+    margin: auto;
+    position: relative;
+    transform: translate(0%, 5%);
+    overflow: hidden;
+
+    background-color: #eeeeee;
+
+    animation: Sign-UpBoxAnim 0.7s ease-in-out;
+    animation-fill-mode: both;
+
+    overflow: hidden;
+
+    z-index: 5;
+}
+@keyframes Sign-UpBoxAnim {
+    0% {
+        opacity: 0.5;
+        bottom: 30px;
+    }
+    100% {
+        opacity: 1;
+        bottom: 0px;
+    }
+}
+
+.Sign-UpTitleBox {
+    width: 450px;
+    Height: 65px;
+
+    border-color: black;
+    border-style: groove;
+    border-radius: 5%/25%;
+
+    background-color: rgba(0, 0, 0, 0.507);
+    margin: auto;
+    transform: translate(0%, 30%);
+
+}
+
+.Sign-UpTitleBoxText {
+    font-size: 40px;
+    color: white;
+    font-style: Agency FB;
+    text-decoration: underline;
+
+    margin: 7px 0px;
+}
+
+.Sign-Up_Username_OverheadText {
+    color: black;
+    text-decoration: underline;
+    text-align: left;
+    font-size: 35px;
+
+    margin: 70px 95px;
+    position: absolute;
+}
+.Sign-Up_Email_OverheadText {
+    color: black;
+    text-decoration: underline;
+    text-align: left;
+    font-size: 35px;
+
+    margin: 240px 95px;
+    position: absolute;
+}
+.Sign-Up_Password_OverheadText {
+    color: black;
+    text-decoration: underline;
+    text-align: left;
+    font-size: 35px;
+
+    margin: 410px 95px;
+    position: absolute;
+}
+
+.Sign-Up_UserFormInput {
+
+    height: 60px;
+    width: 600px;
+
+    background-color: #F2F2F2;
+
+    border-color: black;
+    border-width: 4px;
+    border-radius: 3%/25%;
+
+    font-size: 25px;
+
+    margin: auto;
+    transform: translate(0%, 185%);
+}
+.Sign-Up_EmailFormInput {
+
+    height: 60px;
+    width: 600px;
+
+    background-color: #F2F2F2;
+
+    border-color: black;
+    border-width: 4px;
+    border-radius: 3%/25%;
+
+    font-size: 25px;
+
+    margin: auto;
+    transform: translate(0%, 335%);
+}
+.Sign-Up_PassFormInput {
+
+    height: 60px;
+    width: 600px;
+
+    background-color: #F2F2F2;
+
+    border-color: black;
+    border-width: 4px;
+    border-radius: 3%/25%;
+
+    font-size: 25px;
+
+    margin: auto;
+    transform: translate(0%, 475%);
+}
+.Sign-Up_PassFormInput2 {
+
+    height: 60px;
+    width: 600px;
+
+    background-color: #F2F2F2;
+
+    border-color: black;
+    border-width: 4px;
+    border-radius: 3%/25%;
+
+    font-size: 25px;
+
+    margin: auto;
+    transform: translate(0%, 495%);
+}
+
+.Sign-Up_Button {
+    border: black;
+    border-style: groove;
+    border-width: 3px;
+    background-color: #79EDA0;
+
+    border-radius: 5%/25%;
+
+    height: 85px;
+    width: 380px;
+
+    margin: auto;
+    transform: translate(0%, 460%);
+    transition: all 0.3s ease-in-out;
+}
+.Sign-Up_Button:hover {
+    background-color: #8efdb3;
+    scale: 1.01;
+}
+.Sign-Up_ButtonText {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.Log-In-Return_option {
+    margin: auto;
+    transform: translate(-145%, 1120%);
+    position: absolute;
+
+    font-size: 25px;
+    color: #000000;
+}
+
+
+.Sign-UpMainDivBox img {
+    width: 110%;
+    height: 110%;
+
+    margin: auto;
+    transform: translate(0%, -80%);
+    z-index: 1;
+
+    animation: SignUpImageDiv 1s ease-out;
+    animation-fill-mode: both;
+    opacity: 0.8;
+}
+@keyframes SignUpImageDiv {
+    0% {
+        opacity: 0;}
+    100% {
+        opacity: 0.8;}
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*User Sign_Up Confirmation Page*/
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*User Profile & Accessability features Page UI*/
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-In</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <header>
+            <nav>
+                <!--Navigation bar div button establishments for CSS-->
+                <div class="HomeNavButton">
+                    <a href="/index">
+                        <img class="HomeButton" src="/static/Images/Untitled30_20250327010408.png" alt="Home Icon Button"></a></div>
+
+                <div class="BookingsNavButton">
+                    <a class="BookingsNavLinkText" href="/Bookings_ProductSelection">Bookings</a></div>
+
+                <div class="EducationResourcesNavButton">
+                    <a class="ERNavLinkText" href="/EducationalResourcesP1">Educational Resources</a></div>
+
+                <div class="CarbFootprintNavButton">
+                    <a class="CarbFootprintNavLinkText" href="/CarbFootprint">Carbon Footprint calculator</a></div>
+
+                <div class="EnergyTrackerNavButton">
+                    <a class="EnergyTrackerNavLinkText" href="/EnergyTracker">Energy usage tracker</a></div>
+                                
+
+                <!--Sign-up/Log-in & User profile navigation bar buttons for CSS-->
+                <div class="Log-in-Sign-upNavButton">
+                        <a class="Log_InNavLinkText" href="/Log_in">Log-In</a></div>
+                <div class="UserProfileNavButton">
+                        <a href="/User_profile">
+                            <img class="ProfileIcon" src="/static/Images/Person_Icon.png" alt="User Profile Button">
+                        </a></div>
+                                    
+            </nav>
+
+            <div class="accent1"></div>
+            <div class="accent2"></div>
+
+        </header>
+
+        <main>
+            <div class="Log-InMainDivBox">
+                <div class="LogInWhiteBoxBG">
+                    <div class="Log-inTitleBox">
+                        <p class="Log-inTitleBoxText">Log-in here</p>
+                    </div>
+                    
+                    <p class="Log-In_Username_OverheadText">Username</p>
+                    <p class="Log-In_Password_OverheadText">Password</p>
+
+                    <form class="Log-inForm", method='GET'>
+                        <input class="Log-In_UserFormInput"
+                        type="Username"
+                        id="Username"
+                        name="Username_Input"
+                        placeholder="Username">
+                        <br>
+
+                        <input class="Log-In_PassFormInput"
+                        type="Password"
+                        id="Password"
+                        name="Password_Input"
+                        placeholder="Password">
+                        <br>
+
+                        <button class="Log-in_Button" type="submit">
+                            <p class="Log-InButtonText">Log-In</p>
+                        </button>
+
+                    </form>
+                
+
+                    <a class="Sign-Up_option" href="/Sign_Up">Or Sign-Up here</a>
+                    
+                    
+
+                </div>
+                <img src="/static/Images/Bg1.jpg" alt="Wind Turbine sunset background image">
+            </div>
+        </main>
+    
+        <footer>
+
+        </footer>
+    </div>
+</body>
+</html>
